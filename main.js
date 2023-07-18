@@ -17,7 +17,7 @@ function setup()
 function modelLoaded()
 {
     console.log('PoseNet Is Initialized');
-    poseNet.on('pose', gotPose);
+    poseNet.on('pose', gotPoses);
 }
 function gotPoses(results)
 {
